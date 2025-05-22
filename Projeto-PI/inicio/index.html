@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Projeto Pi</title>
+</head>
+<body>
+    <header>
+        <div title="logotipo">
+            <img src="../inicio/carro.png" alt="carro">
+        </div>
+        <ul>
+            <a href="../inicio/login.html"><li>Login</li></a>
+            <a href="../inicio/cadastro.html"><li class="cadastro">Cadastre-se</div></li></a>
+        </ul>
+    </header>
+    <main>
+        <div class="texto">
+            <h1>Encontre<br>seu caminho aqui!<br></h1>
+            <form class="formulario">
+                <div class="campo-sugestao">
+                    <input type="text" id="input-inicio" placeholder="Início" name="inicio" autocomplete="off" required>
+                    <div id="sugestoes-inicio" class="sugestoes-container"></div>
+                </div>
+                <div class="campo-sugestao">
+                    <input type="text" id="input-destino" placeholder="Destino" name="destino" autocomplete="off" required>
+                    <div id="sugestoes-destino" class="sugestoes-container"></div>
+                </div>
+                <input type="submit" class="procurar" value="Procurar">
+            </form>
+            <div id="suggestions"></div> <!-- Caixa de sugestões -->
+        </div>
+        <div class="imagem">
+            <img src="../inicio/imagem carro.png" height="500" width="600px" alt="carro">
+        </div>
+    </main>
+
+</body>
